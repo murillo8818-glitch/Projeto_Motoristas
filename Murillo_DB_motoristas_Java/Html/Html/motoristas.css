@@ -7,7 +7,7 @@ background-color: rgb(0, 0, 0);
 } 
 
 /*--- Alinhamento dos elementos adicionados anteriormente ---*/
-.xs {
+.xs{
 display:flex;
 justify-content: center;
 list-style-type: none;
@@ -17,10 +17,12 @@ display: inline-block;
 text-align: center;
 }
 
+
 a {
     color: white;
     text-decoration: none;
 }
+
 
 header img{
     margin-bottom: 60px;
@@ -37,6 +39,7 @@ header img{
 .center {
     text-align: center;
 }
+
 
 h1 {
     margin-top: -20px;
@@ -72,70 +75,93 @@ footer p {
 
 
 .container{
-
 text-align: center;
     padding: 0px 50px
 }
+
+
 nav a:hover{
 color: rgb(59, 255, 5) ;
-
 }
+
+
 h4{
     margin-top: -20px;
     margin-bottom: 150px;
 }
+
 
 h2{
     color: rgb(59, 255, 5) ;
     margin-top: 50px;
     font-size: 25px;
 }
-.alinhamentoh3{
 
+
+.alinhamentoh3{
     display:flex;
     align-items: center;
     gap: 10px;
     margin-top: 30px;
     margin-bottom: 10px;
 }
-.alinhamentoh3 h3{
 
+
+.alinhamentoh3 h3{
     color: rgb(59, 255, 5) ;
     margin: 0;
 }
-.alinhamentoh3 p{
 
-    margin: 0;
-    
+
+.alinhamentoh3 p{
+    margin: 0;  
 }
+
+
 .alinp {
     gap: 30px;
+    text-align: left;
+ 
 }
+
+
 .alinp p{
     margin-top: -20px;
     font-size: 21px;
     margin-bottom: 70px;
 }
+
+
 .alinp h2{
     margin-top: 0px;
     font-size: 30px;
 }
 
+
 main h2:hover{
 color: rgba(73, 190, 40, 0.521) ;
-
 }
+
+
+section{
+    padding-left: 180px;
+}
+footer{
+    padding-left: 140px;
+}
+
+
+
 main h3:hover{
 color: rgb(73, 190, 40, 0.521) ;
-
 }
+
+
 .rodape {
-    
     width:100%;           /* Largura */
     margin-top: 180px;          /* Altura */
     background-color: rgb(20, 19, 19); /* O verde do seu h1 */
-    margin-bottom: 20px;          /* Espaçamento igual aos links */
-    
+    margin-bottom: 20px;          /* Espaçamento igual aos links */  
     /* Opcional: se quiser pontas levemente arredondadas */
     border-radius: 4px; 
 }
@@ -147,24 +173,22 @@ color: rgb(73, 190, 40, 0.521) ;
     justify-content: center;
     text-align: center;
     text-decoration: none;
-
 }
 
 .alinb p{
     margin: 0 ;
 }
 
+
+
+
 /*        Aqui e a parge da barra lateral do site                            */
 
 /*zerando estilos padroes*/
 
-
-
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Signika+Negative:wght@300..700&family=Signika:wght@300..700&display=swap');
 
 *{
-    
     padding: 0;
     box-sizing: border-box;
     
@@ -181,44 +205,42 @@ body{
     min-heigth: 100vh;  
 
 }
-main{
+.container{
     padding: 20px;
-   /* position: fixed;*/
+    position: absolute;
     z-index: 1 ;
     padding-left: calc(82px + 20);
 }
 
 #sidebar {
 border: 3px solid rgb(68, 68, 68) ;
-
 display: flex;
 flex-direction: column;
 justify-content: space-between;
 background-color: rgb(20, 19, 19);
-height: 125;
+height: 1200px;
 border-radius: 0px 18px 18px 0px;
 position: relative;
 transition: all .5s;
-min-width: 14px;
+min-width: 10px;
 z-index: 2;
+
 }
 
 #sidebar_content {
-    
     padding: 12px;
 }
 
 #sideitems{
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 0px;
     list-style: none;
 }
 
 
 
 #user {
-    
     display: flex;
     align-items: center;
     gap: 8px;
@@ -229,6 +251,7 @@ z-index: 2;
 display: flex;
 flex-direction: column;
 }
+
 
 #user_infos span :last-child {
 color: #6b6b6b;
@@ -246,36 +269,42 @@ font-size: 12px;
 }
 
 .side-item {
-    padding: 14px;
+    padding: 10px;
     cursor: pointer;
     border-radius: 8px;
-     
 }
+
+
 .side-item {
- background-color: rgba(78, 78, 78, 0.76);
+ background-color: rgb(15, 15, 15);
 
 }
-.side-item:hover:not(:active), #logout_btn:hover{
-    
-         background-color: rgb(20, 19, 19) ;   
+
+
+.side-item:hover:not(:active), #logout_btn:hover{   
+        background-color: rgb(131, 131, 131) ;   
 }
+
 
 .side-item {
 justify-content: center;
 
-border: 2px solid rgb(20, 19, 19) ;
+border: 1px solid rgb(78, 78, 78) ;
+text-decoration: none;
+display: flex;
+align-items: center;
+text-align: center;
 
- text-decoration: none;
- display: flex;
- align-items: center;
-
-justify-content: center;
-color: rgb(0, 0, 0);
+color: rgb(24, 24, 24);
 }
+
+
 .side-item.active a {
-    
     color: aliceblue;
+    
 }
+
+
 .side-item a i {
     display: flex;
     align-items: center;
@@ -285,7 +314,6 @@ color: rgb(0, 0, 0);
 }
 
 #logout {
-
     border-top: 1px solid #2c303a;
     padding: 12px;
 }
@@ -298,33 +326,37 @@ display: flex;
 border-radius: 8px;
 text-align: start;
 cursor: pointer;
-background-color: rgb(60, 255, 0);
+background-color: rgb(100, 96, 96);
+
+
 }
 #open_btn {
+
 position: absolute;
-top: 30px;
+top: 20px;
 right: -10px;
-color: rgb(20, 19, 19);
 border-radius: 100%;
-width: 20px;
-height: 20px;
+width: 32px;
+height: 32px;
 border: none;
 cursor: pointer;
-
+background-color: #202020;
+border: 3px solid rgb(83, 83, 83);
 }
 
-#open_btn_icon{
-    
-    transition: transform .3s ease;
+#open_btn_icon {
+    transform: 0.3s ease;
 }
-.open-sidebar #open_btn_icon{
+
+
+.open-sidebar #open_btn_icon {
     transform: rotate(180deg);
 }
 
 
 
 
-.item-description{
+.item-description {
     width: 0px;
     overflow: hidden;
     white-space: nowrap;
@@ -333,21 +365,26 @@ cursor: pointer;
     transition: width .6s;
     height: 0px;
     color: rgb(24, 255, 51);
- 
 }
 
 
 #sidebar.open-sidebar{
- min-width: 15%;
-}
-#sidebar.open-sidebar .item-description{
-width: 150px;
-height: auto;
+min-width: 15%;
+text-align: center;
+gap: 5px;
 }
 
-#sidebar.open-sidebar .item-description a{
+
+#sidebar.open-sidebar .item-description {
+width: 180px;
+height: auto;
+
+}
+
+
+#sidebar.open-sidebar .item-description a {
 justify-content: flex-end;
-gap: 14px;
+gap: 10px;
 
 }
 
