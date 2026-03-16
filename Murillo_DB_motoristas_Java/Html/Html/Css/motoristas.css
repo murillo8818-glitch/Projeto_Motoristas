@@ -1,0 +1,148 @@
+@import url("Footer2.css");
+@import url("Navbar.css");
+@import url("Header1.css");
+@import url("Nav1.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" );
+
+/*Corpo do site                                           */
+
+/*Possuimos 3 pilares centrais                          */
+
+/*Footer (Saiba mais)                                   */
+
+/*Footer dos links inferior                              */
+
+/*Primeira div central                                    */
+
+body{
+/*    cores das letras                                      */
+color: white;
+/* cor fundo                                                  */
+background-color: rgb(0, 0, 0);
+
+
+}
+ 
+
+
+
+
+/*Ela e do tipo <nav> bar Conteudo especf. para navegação        */
+/*Primeira parde o container                                        */
+/*Rodape superior do site                                                */
+
+
+/*Ate aqui e o primeiro Footer                                        */
+/*---------------------------------------------------------------------------*/
+
+
+
+nav a:hover{
+color: rgb(59, 255, 5) ;
+}
+/*---------------------------------------------------------------------------*/
+
+/*Esses elemntos são os gerais como h1 todos os texto do tipo 
+H1 vão respeitalos pele e um atuante geral e bsicamente seu 
+metodo para H1 mais e uma class */
+h1 {
+    margin-top: -20px;
+    color: rgb(59, 255, 5);
+}
+
+
+h4{
+    margin-top: -20px;
+    margin-bottom: 150px;
+}
+
+
+h2{
+    color: rgb(59, 255, 5) ;
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+/*---------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------*/
+/*Aqui ja antramos dentro do nosso <Section>*/
+.alinhamentoh3{
+    display:flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+
+.alinhamentoh3 h3{
+    color: rgb(59, 255, 5) ;
+    margin: 0;
+}
+
+
+.alinhamentoh3 p{
+    margin: 0;  
+}
+
+
+.alinp {
+    gap: 30px;
+    text-align: left;
+ 
+}
+
+
+.alinp p{
+    margin-top: -20px;
+    font-size: 21px;
+    margin-bottom: 70px;
+}
+
+
+.alinp h2{
+    margin-top: 0px;
+    font-size: 30px;
+}
+
+
+main h2:hover{
+color: rgba(73, 190, 40, 0.521) ;
+}
+
+
+
+
+
+
+
+main h3:hover{
+color: rgb(73, 190, 40, 0.521) ;
+}
+
+
+.rodape {
+    width:100%;           /* Largura */
+    margin-top: 180px;          /* Altura */
+    background-color: rgb(20, 19, 19); /* O verde do seu h1 */
+    margin-bottom: 20px;          /* Espaçamento igual aos links */  
+    /* Opcional: se quiser pontas levemente arredondadas */
+    border-radius: 4px; 
+}
+.alinb {
+    display: flex;
+    color: white;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+.alinb p{
+    margin: 0 ;
+}
+
+

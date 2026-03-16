@@ -1,0 +1,13 @@
+.container{
+text-align: center;
+    padding: 0px 50px
+}
+
+
+.container{
+    gap:150px;
+    padding-left: 150px;
+    position: absolute;
+    z-index: 1 ;
+    padding-left: calc(82px + 20);
+}
