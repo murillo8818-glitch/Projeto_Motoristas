@@ -82,7 +82,7 @@ SOBRE MIM:
 
 Primeiro gostaria de me apresentar; Murillo 20 anos cursando ADS (Analise e desenvolvimento de sistemas)
 Iniciei meus estudos em engenharia civil em 2024 atraves de uma bolsa de estudos que ganhei em Uberlandia 
-onde fiz 2 semestres desde então começei a buscar oportunidades profissionais em contrutoras e empresas d
+onde fiz 2 semestres desde então começei a buscar oportunidades profissionais em construtoras e empresas d
 a região entrando na Britvic brasil apos ser dispensado da empresa para concluir minhas obrigções milita
 res mudei meu curso para araguari onde fiz 3 semestres o que fez com que eu tivesse um contato com as teo
 rias matematicas muito forte pq tive que fazer calculo 1 e 2 nas duas instituições devido a imcompatibili
