@@ -41,7 +41,7 @@ automaticamente
 
 
 
-obejto principal e enter o fluxo dos dados 
+obejto principal e entender o fluxo dos dados 
 Redes funcçoes requisições web e todos os 
 processos na criação desse site 
 
