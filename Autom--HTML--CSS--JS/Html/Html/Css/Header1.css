@@ -5,10 +5,10 @@
 header img{
     margin-bottom: 60px;
     margin-top: 60px;
-    margin-left: 43%;
+    margin-left: 42%;
     display: inline-block;
     margin-right: auto;
-    width: 250x; 
+    width: 250px; 
     height: 250px;
     border-radius: 0;
     border: 2px solid rgb(255, 255, 255);
@@ -21,7 +21,7 @@ header img{
     z-index: 1;
 } 
 /*
-
+aa
 class center para alinharmos oque estamos ultilizando ou aintrodução do site
 e importante destacar que ela se comporta de forma autonoma então para alinham
 ento precisamos adicionar suas proprias Propriedades 
